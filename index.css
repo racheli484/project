@@ -1,0 +1,87 @@
+body {
+    background-image: url(Assets/Images/background1.jpg);
+    width: auto;
+}
+
+#h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+#page {
+
+    background-image: url(Assets/Images/page.jpg);
+    margin-left: 350px;
+    margin-top: 40px;
+    width: 600px;
+    height: 300px;
+    font-size: 20px;
+
+}
+
+.form-group {
+    margin-left: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#button {
+    margin-top: 15px;
+}
+
+#allTask {
+    margin-left: -400px;
+    margin-right: -500px;
+    margin-top: 20px;
+    direction: ltr;
+    display: inline-block;
+}
+
+.container-page {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-image: url(Assets/Images/note.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 50px;
+    margin-top: 50px;
+
+
+
+}
+
+
+.divActions {
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    visibility: hidden;
+}
+.bi{
+    color:blue;
+  
+}
+
+.divConstainderDate {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+}
+
+.divTask {
+    text-align: center;
+    word-wrap: break-word;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    width: 250px;
+    height: 80px;
+    overflow: auto;
+    margin-bottom: 120px;
+
+}
